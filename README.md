@@ -21,6 +21,9 @@ Write-ups for the **Riffhack CTF (Biterra)** event — a black-market-themed jeo
 | [Marketplace — Admin Middleware Bypass](writeups/marketplace-admin-middleware-bypass.md) | CVE-2025-29927 Next.js middleware bypass | easy |
 | [Marketplace — Vendor Verification SSRF](writeups/marketplace-vendor-verification-ssrf.md) | SSRF → IMDS user-data leak | easy |
 | [Marketplace — Operator Reputation IDOR](writeups/marketplace-operator-reputation-idor.md) | IDOR via trusted handle | easy |
+| [Marketplace — Order History IDOR](writeups/marketplace-order-history-idor.md) | IDOR via Review UIDs | easy |
+| [InGen Systems Specimen Catalogue](writeups/ingen-specimen-catalogue.md) | "Life finds a way" web challenge | easy |
+| [Vault 101 RobCo Termlink](writeups/vault101-overseer-directive.md) | Overseer's sealed directive | easy |
 
 ### Pwn — overflows and ret2win
 
@@ -40,12 +43,14 @@ Write-ups for the **Riffhack CTF (Biterra)** event — a black-market-themed jeo
 | Challenge | Technique | Difficulty |
 | --- | --- | --- |
 | [Spider-Verse Cube-Root](writeups/spider-verse-cube-root.md) | Textbook RSA with `e=3`, unpadded plaintext | easy |
+| [Minas Tirith Signing Oracle](writeups/minas-tirith-signing-oracle.md) | One Ring nonce collapse — ECDSA repeated nonce | medium |
 
 ### Forensics
 
 | Challenge | Technique | Difficulty |
 | --- | --- | --- |
 | [Sailor Spectrum](writeups/sailor-spectrum.md) | Appended-ZIP PNG stego + plaintext PCAP | easy |
+| [Hawkins Lab Memory Snapshot](writeups/hawkins-memory-palace.md) | Vecna's Memory Palace — memory forensics | medium |
 
 ### Misc
 
@@ -64,15 +69,20 @@ Write-ups for the **Riffhack CTF (Biterra)** event — a black-market-themed jeo
     ├── aperture-test-chambers.md
     ├── barbie-core.md
     ├── crawlers-courtesy.md
+    ├── hawkins-memory-palace.md
+    ├── ingen-specimen-catalogue.md
     ├── marketplace-admin-middleware-bypass.md
     ├── marketplace-operator-reputation-idor.md
+    ├── marketplace-order-history-idor.md
     ├── marketplace-overview.md
     ├── marketplace-vendor-verification-ssrf.md
+    ├── minas-tirith-signing-oracle.md
     ├── orbital-docking-handshake.md
     ├── sailor-spectrum.md
     ├── samus-stack-smash.md
     ├── spider-verse-cube-root.md
-    └── trusted-return-address.md
+    ├── trusted-return-address.md
+    └── vault101-overseer-directive.md
 ```
 
 Each write-up contains:
