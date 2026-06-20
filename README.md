@@ -3,7 +3,7 @@
 Write-ups for the **Riffhack CTF (Biterra)** event — a black-market-themed jeopardy CTF spanning web, pwn, reverse, crypto, forensics, and misc.
 
 - **Event:** Riffhack CTF — *Black Market Break-In*
-- **Team:** `ZKaMYBbs`
+- **Team:** `cyb3r.p4ls`
 - **Author:** CL4Y
 - **Flag formats:** `bitflag{...}` (web track) and `bitctf{...}` (binary / crypto / forensics / misc)
 
@@ -22,6 +22,9 @@ Write-ups for the **Riffhack CTF (Biterra)** event — a black-market-themed jeo
 | [Marketplace — Vendor Verification SSRF](writeups/marketplace-vendor-verification-ssrf.md) | SSRF → IMDS user-data leak | easy |
 | [Marketplace — Operator Reputation IDOR](writeups/marketplace-operator-reputation-idor.md) | IDOR via trusted handle | easy |
 | [Marketplace — Order History IDOR](writeups/marketplace-order-history-idor.md) | IDOR via Review UIDs | easy |
+| [Marketplace — Wanted Board CSRF](writeups/marketplace-wanted-board-csrf.md) | CSRF via support-chat URL nudge | medium |
+| [Marketplace — 5-Flag Sweep](writeups/marketplace-5flag-sweep.md) | End-to-end 5-flag run on the marketplace | medium |
+| [Ghostbusters Template Possession](writeups/ghostbusters-template-possession.md) | SSTI — template engine RCE | medium |
 | [InGen Systems Specimen Catalogue](writeups/ingen-specimen-catalogue.md) | "Life finds a way" web challenge | easy |
 | [Vault 101 RobCo Termlink](writeups/vault101-overseer-directive.md) | Overseer's sealed directive | easy |
 
@@ -44,6 +47,7 @@ Write-ups for the **Riffhack CTF (Biterra)** event — a black-market-themed jeo
 | --- | --- | --- |
 | [Spider-Verse Cube-Root](writeups/spider-verse-cube-root.md) | Textbook RSA with `e=3`, unpadded plaintext | easy |
 | [Minas Tirith Signing Oracle](writeups/minas-tirith-signing-oracle.md) | One Ring nonce collapse — ECDSA repeated nonce | medium |
+| [Coruscant Jedi Archive](writeups/coruscant-jedi-archive.md) | Bleichenbacher `e=3` signature forgery | medium |
 
 ### Forensics
 
@@ -51,6 +55,7 @@ Write-ups for the **Riffhack CTF (Biterra)** event — a black-market-themed jeo
 | --- | --- | --- |
 | [Sailor Spectrum](writeups/sailor-spectrum.md) | Appended-ZIP PNG stego + plaintext PCAP | easy |
 | [Hawkins Lab Memory Snapshot](writeups/hawkins-memory-palace.md) | Vecna's Memory Palace — memory forensics | medium |
+| [Black Mirror: Memory Fragments](writeups/black-mirror-memory-fragments.md) | Tar-bundle memory fragments — forensics | medium |
 
 ### Misc
 
@@ -68,14 +73,19 @@ Write-ups for the **Riffhack CTF (Biterra)** event — a black-market-themed jeo
 └── writeups/
     ├── aperture-test-chambers.md
     ├── barbie-core.md
+    ├── black-mirror-memory-fragments.md
+    ├── coruscant-jedi-archive.md
     ├── crawlers-courtesy.md
+    ├── ghostbusters-template-possession.md
     ├── hawkins-memory-palace.md
     ├── ingen-specimen-catalogue.md
+    ├── marketplace-5flag-sweep.md
     ├── marketplace-admin-middleware-bypass.md
     ├── marketplace-operator-reputation-idor.md
     ├── marketplace-order-history-idor.md
     ├── marketplace-overview.md
     ├── marketplace-vendor-verification-ssrf.md
+    ├── marketplace-wanted-board-csrf.md
     ├── minas-tirith-signing-oracle.md
     ├── orbital-docking-handshake.md
     ├── sailor-spectrum.md
